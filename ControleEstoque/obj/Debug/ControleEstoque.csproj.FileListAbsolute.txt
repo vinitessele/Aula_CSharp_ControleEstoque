@@ -38,6 +38,13 @@ C:\Users\Vinicius\source\repos\ControleEstoque1\ControleEstoque1\obj\Debug\Contr
 C:\Users\Vinicius\source\repos\ControleEstoque1\ControleEstoque1\obj\Debug\ControleEstoque1.exe
 C:\Users\Vinicius\source\repos\ControleEstoque1\ControleEstoque1\obj\Debug\ControleEstoque1.pdb
 C:\Users\Vinicius\source\repos\ControleEstoque1\ControleEstoque1\obj\Debug\ControleEstoque1.csproj.AssemblyReference.cache
+C:\Users\Vinicius\source\repos\ControleEstoque\ControleEstoque\obj\Debug\ControleEstoque.FrmProduto.resources
+C:\Users\Vinicius\source\repos\ControleEstoque\ControleEstoque\obj\Debug\ControleEstoque.FrmUsuario.resources
+C:\Users\Vinicius\source\repos\ControleEstoque\ControleEstoque\obj\Debug\ControleEstoque.FrmBase.resources
+C:\Users\Vinicius\source\repos\ControleEstoque\ControleEstoque\obj\Debug\ControleEstoque.FrmPrincipal.resources
+C:\Users\Vinicius\source\repos\ControleEstoque\ControleEstoque\obj\Debug\ControleEstoque1.Properties.Resources.resources
+C:\Users\Vinicius\source\repos\ControleEstoque\ControleEstoque\obj\Debug\ControleEstoque.csproj.GenerateResource.cache
+C:\Users\Vinicius\source\repos\ControleEstoque\ControleEstoque\obj\Debug\ControleEstoque.csproj.CoreCompileInputs.cache
 C:\Users\Vinicius\source\repos\ControleEstoque\ControleEstoque\bin\Debug\ControleEstoque1.exe.config
 C:\Users\Vinicius\source\repos\ControleEstoque\ControleEstoque\bin\Debug\ControleEstoque1.exe
 C:\Users\Vinicius\source\repos\ControleEstoque\ControleEstoque\bin\Debug\ControleEstoque1.pdb
@@ -68,13 +75,6 @@ C:\Users\Vinicius\source\repos\ControleEstoque\ControleEstoque\bin\Debug\System.
 C:\Users\Vinicius\source\repos\ControleEstoque\ControleEstoque\bin\Debug\System.Text.Json.xml
 C:\Users\Vinicius\source\repos\ControleEstoque\ControleEstoque\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\Vinicius\source\repos\ControleEstoque\ControleEstoque\bin\Debug\System.ValueTuple.xml
-C:\Users\Vinicius\source\repos\ControleEstoque\ControleEstoque\obj\Debug\ControleEstoque.csproj.AssemblyReference.cache
-C:\Users\Vinicius\source\repos\ControleEstoque\ControleEstoque\obj\Debug\ControleEstoque1.FrmUsuario.resources
-C:\Users\Vinicius\source\repos\ControleEstoque\ControleEstoque\obj\Debug\ControleEstoque1.FrmBase.resources
-C:\Users\Vinicius\source\repos\ControleEstoque\ControleEstoque\obj\Debug\ControleEstoque1.FrmPrincipal.resources
-C:\Users\Vinicius\source\repos\ControleEstoque\ControleEstoque\obj\Debug\ControleEstoque1.Properties.Resources.resources
-C:\Users\Vinicius\source\repos\ControleEstoque\ControleEstoque\obj\Debug\ControleEstoque.csproj.GenerateResource.cache
-C:\Users\Vinicius\source\repos\ControleEstoque\ControleEstoque\obj\Debug\ControleEstoque.csproj.CoreCompileInputs.cache
 C:\Users\Vinicius\source\repos\ControleEstoque\ControleEstoque\obj\Debug\ControleEstoque.csproj.CopyComplete
 C:\Users\Vinicius\source\repos\ControleEstoque\ControleEstoque\obj\Debug\ControleEstoque1.exe
 C:\Users\Vinicius\source\repos\ControleEstoque\ControleEstoque\obj\Debug\ControleEstoque1.pdb

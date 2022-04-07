@@ -4,7 +4,7 @@ using System.Data;
 using System.Linq;
 
 
-namespace ControleEstoque1
+namespace ControleEstoque
 {
     public class Model
     {
@@ -38,8 +38,41 @@ namespace ControleEstoque1
                                   }).ToList();
 
             return new List<DtoUsuario2>(result);
+        }
+        public List<DtoProduto2> ListProdutos()
+        {
+            Context db = new Context();
+            List<DtoProduto2> result = (from a in db.produto
+                                        select new DtoProduto2
+                                        {
+                                            id = a.id,
+                                            nome = a.nome,
+                                            valorCusto = a.valorCusto,
+                                            valorVenda = a.valorVenda,
+                                            quantidade = a.quantidade
+                                        }).ToList();
 
+            return new List<DtoProduto2>(result);
+        }
 
+        internal void SetProduto(DtoProduto p)
+        {
+            Context db = new Context();
+
+            db.produto.Add(p);
+            db.SaveChanges();
+        }
+
+        internal void EditProduto(DtoProduto p)
+        {
+            Context db = new Context();
+            DtoProduto e = db.produto.FirstOrDefault(pr => pr.id == p.id);
+            e.nome = p.nome;
+            e.valorCusto = p.valorCusto;
+            e.valorVenda = p.valorVenda;
+            e.quantidade = p.quantidade;
+
+            db.SaveChanges();
         }
 
         public DtoUsuario2 GetUsuarioId(int id)

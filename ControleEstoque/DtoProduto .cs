@@ -3,13 +3,14 @@ using System.ComponentModel.DataAnnotations;
 
 namespace ControleEstoque
 {
- [Table("usuario", Schema="public")]
-    public class DtoUsuario
+ [Table("produto", Schema="public")]
+    public class DtoProduto
     {
         [Key]
         public int id { get; set; }
         public string nome { get; set; }
-        public string login { get; set; }
-        public string senha { get; set; }
+        public decimal? valorCusto { get; set; }
+        public decimal? valorVenda { get; set; }
+        public decimal? quantidade { get; set; }
     }
 }

@@ -1,7 +1,7 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
 using System.ComponentModel.DataAnnotations;
 
-namespace ControleEstoque1
+namespace ControleEstoque
 {
     public class DtoUsuario2
     {

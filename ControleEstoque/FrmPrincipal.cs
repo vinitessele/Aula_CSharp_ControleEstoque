@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace ControleEstoque1
+namespace ControleEstoque
 {
     public partial class FrmPrincipal : Form
     {
@@ -17,12 +17,12 @@ namespace ControleEstoque1
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void BtnProdutos_Click(object sender, EventArgs e)
         {
-
+            FrmProduto f = new FrmProduto();
+            f.Show();
         }
-
-        private void button5_Click(object sender, EventArgs e)
+        private void BtnUsuario_Click(object sender, EventArgs e)
         {
             FrmUsuario f = new FrmUsuario();
             f.Show();

@@ -1,5 +1,5 @@
 ﻿
-namespace ControleEstoque1
+namespace ControleEstoque
 {
     partial class FrmBase
     {

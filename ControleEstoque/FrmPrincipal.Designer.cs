@@ -1,5 +1,5 @@
 ﻿
-namespace ControleEstoque1
+namespace ControleEstoque
 {
     partial class FrmPrincipal
     {
@@ -33,12 +33,11 @@ namespace ControleEstoque1
             this.panelTopo = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
             this.panelMenuLateral = new System.Windows.Forms.Panel();
+            this.BtnUsuario = new System.Windows.Forms.Button();
+            this.BtnSaidas = new System.Windows.Forms.Button();
+            this.BtnEntradas = new System.Windows.Forms.Button();
+            this.BtnProdutos = new System.Windows.Forms.Button();
             this.panelInteiro = new System.Windows.Forms.Panel();
-            this.button5 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.panelTopo.SuspendLayout();
             this.panelMenuLateral.SuspendLayout();
             this.SuspendLayout();
@@ -68,16 +67,89 @@ namespace ControleEstoque1
             // panelMenuLateral
             // 
             this.panelMenuLateral.BackColor = System.Drawing.SystemColors.ControlDarkDark;
-            this.panelMenuLateral.Controls.Add(this.button5);
-            this.panelMenuLateral.Controls.Add(this.button4);
-            this.panelMenuLateral.Controls.Add(this.button3);
-            this.panelMenuLateral.Controls.Add(this.button2);
-            this.panelMenuLateral.Controls.Add(this.button1);
+            this.panelMenuLateral.Controls.Add(this.BtnUsuario);
+            this.panelMenuLateral.Controls.Add(this.BtnSaidas);
+            this.panelMenuLateral.Controls.Add(this.BtnEntradas);
+            this.panelMenuLateral.Controls.Add(this.BtnProdutos);
             this.panelMenuLateral.Dock = System.Windows.Forms.DockStyle.Left;
             this.panelMenuLateral.Location = new System.Drawing.Point(0, 61);
             this.panelMenuLateral.Name = "panelMenuLateral";
             this.panelMenuLateral.Size = new System.Drawing.Size(174, 389);
             this.panelMenuLateral.TabIndex = 1;
+            // 
+            // BtnUsuario
+            // 
+            this.BtnUsuario.FlatAppearance.BorderSize = 0;
+            this.BtnUsuario.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.BtnUsuario.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SandyBrown;
+            this.BtnUsuario.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnUsuario.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnUsuario.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.BtnUsuario.Image = global::ControleEstoque1.Properties.Resources.icons8_grupo_de_usuário_homem_homem_50;
+            this.BtnUsuario.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnUsuario.Location = new System.Drawing.Point(12, 216);
+            this.BtnUsuario.Name = "BtnUsuario";
+            this.BtnUsuario.Size = new System.Drawing.Size(147, 55);
+            this.BtnUsuario.TabIndex = 4;
+            this.BtnUsuario.Text = "Usuários";
+            this.BtnUsuario.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnUsuario.UseVisualStyleBackColor = true;
+            this.BtnUsuario.Click += new System.EventHandler(this.BtnUsuario_Click);
+            // 
+            // BtnSaidas
+            // 
+            this.BtnSaidas.FlatAppearance.BorderSize = 0;
+            this.BtnSaidas.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.BtnSaidas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SandyBrown;
+            this.BtnSaidas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnSaidas.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnSaidas.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.BtnSaidas.Image = global::ControleEstoque1.Properties.Resources.icons8_performance_de_vendas_50;
+            this.BtnSaidas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnSaidas.Location = new System.Drawing.Point(12, 141);
+            this.BtnSaidas.Name = "BtnSaidas";
+            this.BtnSaidas.Size = new System.Drawing.Size(147, 55);
+            this.BtnSaidas.TabIndex = 2;
+            this.BtnSaidas.Text = "Saídas";
+            this.BtnSaidas.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnSaidas.UseVisualStyleBackColor = true;
+            // 
+            // BtnEntradas
+            // 
+            this.BtnEntradas.FlatAppearance.BorderSize = 0;
+            this.BtnEntradas.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.BtnEntradas.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SandyBrown;
+            this.BtnEntradas.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnEntradas.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnEntradas.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.BtnEntradas.Image = global::ControleEstoque1.Properties.Resources.icons8_caminhão_64;
+            this.BtnEntradas.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnEntradas.Location = new System.Drawing.Point(12, 80);
+            this.BtnEntradas.Name = "BtnEntradas";
+            this.BtnEntradas.Size = new System.Drawing.Size(147, 55);
+            this.BtnEntradas.TabIndex = 1;
+            this.BtnEntradas.Text = "Entradas";
+            this.BtnEntradas.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnEntradas.UseVisualStyleBackColor = true;
+            // 
+            // BtnProdutos
+            // 
+            this.BtnProdutos.FlatAppearance.BorderSize = 0;
+            this.BtnProdutos.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.BtnProdutos.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SandyBrown;
+            this.BtnProdutos.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.BtnProdutos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.BtnProdutos.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
+            this.BtnProdutos.Image = global::ControleEstoque1.Properties.Resources.icons8_produto_50;
+            this.BtnProdutos.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
+            this.BtnProdutos.Location = new System.Drawing.Point(12, 19);
+            this.BtnProdutos.Name = "BtnProdutos";
+            this.BtnProdutos.Size = new System.Drawing.Size(147, 55);
+            this.BtnProdutos.TabIndex = 0;
+            this.BtnProdutos.Text = "Produtos";
+            this.BtnProdutos.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
+            this.BtnProdutos.UseVisualStyleBackColor = true;
+            this.BtnProdutos.Click += new System.EventHandler(this.BtnProdutos_Click);
             // 
             // panelInteiro
             // 
@@ -86,98 +158,6 @@ namespace ControleEstoque1
             this.panelInteiro.Name = "panelInteiro";
             this.panelInteiro.Size = new System.Drawing.Size(626, 389);
             this.panelInteiro.TabIndex = 2;
-            // 
-            // button5
-            // 
-            this.button5.FlatAppearance.BorderSize = 0;
-            this.button5.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button5.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SandyBrown;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button5.Image = global::ControleEstoque1.Properties.Resources.icons8_grupo_de_usuário_homem_homem_50;
-            this.button5.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button5.Location = new System.Drawing.Point(12, 263);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(147, 55);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "Usuários";
-            this.button5.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
-            // 
-            // button4
-            // 
-            this.button4.FlatAppearance.BorderSize = 0;
-            this.button4.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button4.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SandyBrown;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button4.Image = global::ControleEstoque1.Properties.Resources.icons8_produto_50;
-            this.button4.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button4.Location = new System.Drawing.Point(12, 202);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(147, 55);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "Produtos";
-            this.button4.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button4.UseVisualStyleBackColor = true;
-            // 
-            // button3
-            // 
-            this.button3.FlatAppearance.BorderSize = 0;
-            this.button3.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button3.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SandyBrown;
-            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button3.Image = global::ControleEstoque1.Properties.Resources.icons8_performance_de_vendas_50;
-            this.button3.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button3.Location = new System.Drawing.Point(12, 141);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(147, 55);
-            this.button3.TabIndex = 2;
-            this.button3.Text = "Saídas";
-            this.button3.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button3.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.FlatAppearance.BorderSize = 0;
-            this.button2.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SandyBrown;
-            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button2.Image = global::ControleEstoque1.Properties.Resources.icons8_caminhão_64;
-            this.button2.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button2.Location = new System.Drawing.Point(12, 80);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(147, 55);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Entradas";
-            this.button2.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // button1
-            // 
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatAppearance.MouseDownBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.button1.FlatAppearance.MouseOverBackColor = System.Drawing.Color.SandyBrown;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
-            this.button1.Image = global::ControleEstoque1.Properties.Resources.icons8_produto_50;
-            this.button1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.button1.Location = new System.Drawing.Point(12, 19);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(147, 55);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Produtos";
-            this.button1.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // FrmPrincipal
             // 
@@ -205,11 +185,10 @@ namespace ControleEstoque1
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Panel panelMenuLateral;
         private System.Windows.Forms.Panel panelInteiro;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button BtnProdutos;
+        private System.Windows.Forms.Button BtnSaidas;
+        private System.Windows.Forms.Button BtnEntradas;
+        private System.Windows.Forms.Button BtnUsuario;
     }
 }
 

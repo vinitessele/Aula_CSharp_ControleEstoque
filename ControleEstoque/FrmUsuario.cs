@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Windows.Forms;
 
-namespace ControleEstoque1
+namespace ControleEstoque
 {
-    public partial class FrmUsuario : ControleEstoque1.FrmBase
+    public partial class FrmUsuario : ControleEstoque.FrmBase
     {
         public FrmUsuario()
         {

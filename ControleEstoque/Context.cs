@@ -1,6 +1,6 @@
 ﻿using System.Data.Entity;
 
-namespace ControleEstoque1
+namespace ControleEstoque
 {
     public class Context: DbContext
     {
@@ -8,5 +8,6 @@ namespace ControleEstoque1
         {
         }
         public DbSet<DtoUsuario> usuario { get; set; }
+        public DbSet<DtoProduto> produto { get; set; }
     }
 }
