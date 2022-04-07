@@ -9,7 +9,16 @@ namespace ControleEstoque
         public FrmProduto()
         {
             InitializeComponent();
+            BloqueiaCampos();
             CarregarGrid();
+        }
+
+        private void BloqueiaCampos()
+        {
+            textBoxNome.Enabled = false;
+            textBoxVlCusto.Enabled = false;
+            textBoxVlVenda.Enabled = false;
+            textBoxQte.Enabled = false;
         }
 
         private void CarregarGrid()
@@ -27,8 +36,8 @@ namespace ControleEstoque
                 Model set = new Model();
                 DtoProduto p = new DtoProduto();
                 p.nome = textBoxNome.Text;
-                p.valorCusto = decimal.Parse(textBoxVlCusto.Text);
-                p.valorVenda = decimal.Parse(textBoxVlVenda.Text);
+                p.valorcusto = decimal.Parse(textBoxVlCusto.Text);
+                p.valorvenda = decimal.Parse(textBoxVlVenda.Text);
                 p.quantidade = decimal.Parse(textBoxQte.Text);
                 if (textBoxID.Text != string.Empty)
                 {
@@ -39,12 +48,28 @@ namespace ControleEstoque
                 {
                     set.SetProduto(p);
                 }
+                BloqueiaCampos();
                 CarregarGrid();
             }
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void bntNovo_Click(object sender, EventArgs e)
+        {
+            LiberarCampos();
+            textBoxNome.Focus();
+
+        }
+
+        private void LiberarCampos()
+        {
+            textBoxNome.Enabled = true;
+            textBoxVlCusto.Enabled = true;
+            textBoxVlVenda.Enabled = true;
+            textBoxQte.Enabled = true;
         }
     }
 }

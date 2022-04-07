@@ -89,7 +89,7 @@ namespace ControleEstoque
             // 
             // btnExcluir
             // 
-            this.btnExcluir.Cursor = System.Windows.Forms.Cursors.No;
+            this.btnExcluir.Cursor = System.Windows.Forms.Cursors.Default;
             this.btnExcluir.FlatAppearance.BorderSize = 0;
             this.btnExcluir.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnExcluir.ForeColor = System.Drawing.SystemColors.ButtonHighlight;
@@ -102,7 +102,7 @@ namespace ControleEstoque
             // 
             // btnEditar
             // 
-            this.btnEditar.Cursor = System.Windows.Forms.Cursors.No;
+            this.btnEditar.Cursor = System.Windows.Forms.Cursors.Default;
             this.btnEditar.FlatAppearance.BorderSize = 0;
             this.btnEditar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnEditar.Image = global::ControleEstoque1.Properties.Resources.icons8_lápis_32;
@@ -114,7 +114,7 @@ namespace ControleEstoque
             // 
             // btnSalvar
             // 
-            this.btnSalvar.Cursor = System.Windows.Forms.Cursors.No;
+            this.btnSalvar.Cursor = System.Windows.Forms.Cursors.Default;
             this.btnSalvar.FlatAppearance.BorderSize = 0;
             this.btnSalvar.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnSalvar.Image = global::ControleEstoque1.Properties.Resources.icons8_salvar_32;
@@ -127,7 +127,7 @@ namespace ControleEstoque
             // 
             // bntNovo
             // 
-            this.bntNovo.Cursor = System.Windows.Forms.Cursors.No;
+            this.bntNovo.Cursor = System.Windows.Forms.Cursors.Default;
             this.bntNovo.FlatAppearance.BorderSize = 0;
             this.bntNovo.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.bntNovo.Image = global::ControleEstoque1.Properties.Resources.icons8_document_32;

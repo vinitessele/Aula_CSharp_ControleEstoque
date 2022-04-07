@@ -47,8 +47,8 @@ namespace ControleEstoque
                                         {
                                             id = a.id,
                                             nome = a.nome,
-                                            valorCusto = a.valorCusto,
-                                            valorVenda = a.valorVenda,
+                                            valorCusto = a.valorcusto,
+                                            valorVenda = a.valorvenda,
                                             quantidade = a.quantidade
                                         }).ToList();
 
@@ -68,8 +68,8 @@ namespace ControleEstoque
             Context db = new Context();
             DtoProduto e = db.produto.FirstOrDefault(pr => pr.id == p.id);
             e.nome = p.nome;
-            e.valorCusto = p.valorCusto;
-            e.valorVenda = p.valorVenda;
+            e.valorcusto = p.valorcusto;
+            e.valorvenda = p.valorvenda;
             e.quantidade = p.quantidade;
 
             db.SaveChanges();

@@ -51,6 +51,7 @@ namespace ControleEstoque
             // bntNovo
             // 
             this.bntNovo.FlatAppearance.BorderSize = 0;
+            this.bntNovo.Click += new System.EventHandler(this.bntNovo_Click);
             // 
             // btnSalvar
             // 
@@ -112,6 +113,7 @@ namespace ControleEstoque
             // 
             // textBoxID
             // 
+            this.textBoxID.Enabled = false;
             this.textBoxID.Location = new System.Drawing.Point(54, 130);
             this.textBoxID.Name = "textBoxID";
             this.textBoxID.Size = new System.Drawing.Size(100, 20);
