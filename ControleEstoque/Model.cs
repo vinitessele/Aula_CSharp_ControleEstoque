@@ -27,6 +27,28 @@ namespace ControleEstoque
             db.SaveChanges();
         }
 
+        public List<DtoProduto2> ListProdutosNome(string text)
+        {
+            Context db = new Context();
+            List<DtoProduto2> result = (from a in db.produto
+                                       where a.nome.Contains(text)
+                                        select new DtoProduto2
+                                        {
+                                            id = a.id,
+                                            nome = a.nome,
+                                            quantidade = a.quantidade
+                                        }).ToList();
+
+            return result;
+        }
+
+        public DtoProduto GetProdutoId(int id)
+        {
+            Context db = new Context();
+            DtoProduto e = db.produto.FirstOrDefault(p => p.id == id);
+            return e;
+        }
+
         public List<DtoUsuario2> ListUsuarios()
         {
             Context db = new Context();

@@ -97,6 +97,18 @@
     <Compile Include="DtoProduto .cs" />
     <Compile Include="DtoUsuario2.cs" />
     <Compile Include="DtoUsuario.cs" />
+    <Compile Include="FrmConsulta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmConsulta.Designer.cs">
+      <DependentUpon>FrmConsulta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEntrada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEntrada.Designer.cs">
+      <DependentUpon>FrmEntrada.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmProduto.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -124,6 +136,12 @@
     <Compile Include="Model.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmConsulta.resx">
+      <DependentUpon>FrmConsulta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEntrada.resx">
+      <DependentUpon>FrmEntrada.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmProduto.resx">
       <DependentUpon>FrmProduto.cs</DependentUpon>
     </EmbeddedResource>

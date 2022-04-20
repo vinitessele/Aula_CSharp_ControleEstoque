@@ -131,6 +131,7 @@ namespace ControleEstoque
             this.BtnEntradas.Text = "Entradas";
             this.BtnEntradas.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             this.BtnEntradas.UseVisualStyleBackColor = true;
+            this.BtnEntradas.Click += new System.EventHandler(this.BtnEntradas_Click);
             // 
             // BtnProdutos
             // 

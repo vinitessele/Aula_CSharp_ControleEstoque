@@ -78,3 +78,6 @@ C:\Users\Vinicius\source\repos\ControleEstoque\ControleEstoque\bin\Debug\System.
 C:\Users\Vinicius\source\repos\ControleEstoque\ControleEstoque\obj\Debug\ControleEstoque.csproj.CopyComplete
 C:\Users\Vinicius\source\repos\ControleEstoque\ControleEstoque\obj\Debug\ControleEstoque1.exe
 C:\Users\Vinicius\source\repos\ControleEstoque\ControleEstoque\obj\Debug\ControleEstoque1.pdb
+C:\Users\Vinicius\source\repos\ControleEstoque\ControleEstoque\obj\Debug\ControleEstoque.FrmConsulta.resources
+C:\Users\Vinicius\source\repos\ControleEstoque\ControleEstoque\obj\Debug\ControleEstoque.FrmEntrada.resources
+C:\Users\Vinicius\source\repos\ControleEstoque\ControleEstoque\obj\Debug\ControleEstoque.csproj.AssemblyReference.cache
