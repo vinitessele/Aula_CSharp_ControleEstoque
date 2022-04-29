@@ -93,6 +93,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Context.cs" />
+    <Compile Include="DtoEntradaProduto.cs" />
     <Compile Include="DtoProduto2 .cs" />
     <Compile Include="DtoProduto .cs" />
     <Compile Include="DtoUsuario2.cs" />

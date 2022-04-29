@@ -9,5 +9,6 @@ namespace ControleEstoque
         }
         public DbSet<DtoUsuario> usuario { get; set; }
         public DbSet<DtoProduto> produto { get; set; }
+        public DbSet<DtoEntradaProduto> entradaproduto { get; set; }
     }
 }
